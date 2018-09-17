@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/pig"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"/>
+
+    <TextView
+        android:text="infor Matriz"
+        android:id="@+id/custom_text_view"
+        android:textSize="20dp"
+        android:layout_below="@id/img_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="btnExitClicked"
+        android:id="@+id/btnExit"
+        android:background="@android:color/white"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/custom_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"/>
+</RelativeLayout>
